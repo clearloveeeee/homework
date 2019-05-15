@@ -257,8 +257,8 @@
 
             </div>
             <!--Grid column-->
-            <div class="backimg" id="img1" style="opacity: 1.0;position: fixed;overflow: hidden;z-index: -8"><img  src="img\5b707da8c25a2d071d4aaee9a3e5e774.jpg" style="position: center"></div>
-            <img src="img\376a7025a3083ad83c2c424c3e826443.png" id="img2"    style="position:fixed;z-index: -9">
+            <div class="backimg" id="img1"><img  src="img\5b707da8c25a2d071d4aaee9a3e5e774.jpg" style="position: center"></div>
+            <img src="img\376a7025a3083ad83c2c424c3e826443.png" id="img2" >
             <script>window.addEventListener("scroll", function (e) {
 
 
@@ -271,9 +271,9 @@
                 if (t > Height) {
                   $('#img1').css("height", 2 * Height - t);
                   if (t > 2.5 * Height) { $('#img2').css("top", 2.5 * Height - t); }
-                  if(t<Height){$('#img2').css("top", 0);$('#img1').css("height",'754px');}
+                 
                 }
-              
+                if(t<Height){$('#img2').css("top", 0);$('#img1').css("height",775);}
               });
             </script>
           </div>
